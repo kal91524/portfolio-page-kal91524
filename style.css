@@ -1,0 +1,34 @@
+/* Reset some default styles for the body and header */
+body, header {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply black background and white text to the body */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header with a centered title */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the embedded video containers */
+.video-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Style the embedded videos themselves */
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
